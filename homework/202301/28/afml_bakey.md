@@ -36,6 +36,9 @@
 | ------ | ------ | ------ | ------ |
 | Assets | Price/yield/implied volatility | Analyst recommendations | Satellite/CCTV images |
 | Liabilities | Volume | Credit ratings | Google searches |
+| Sales | Dividend/coupons | Earnings expectations | Google searches |
+| Costs/earnings | Open interest | News sentiment | Twitter/chats |
+| Macro variables | Quotes/cancellations | ...| Metadata |
 #### Market Data
 * 市场数据包括所有交易所内的交易数据。
 #### Analytics
