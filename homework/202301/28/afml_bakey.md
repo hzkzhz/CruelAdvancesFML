@@ -33,7 +33,7 @@
 * 个人观点：目前这些数据的收集应该都是全自动化流程处理，属于Infra的范围。
 
 | Fundamental Data | Market Data | Analytics | Alternative Data|
-| ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ |
 | Assets | Price/yield/implied volatility | Analyst recommendations | Satellite/CCTV images |
 | Liabilities | Volume | Credit ratings | Google searches |
 #### Market Data
