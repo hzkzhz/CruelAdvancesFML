@@ -79,9 +79,9 @@ pi,t is the raw close price of instrument i = 1,…, I at bar t = 1,…, T.
 di,t is the carry, dividend, or coupon paid by instrument i at bar t. This variable can also be used to charge margin costs, or costs of funding.
 
 $$
-h_(i,t)= 
+h_{i,t}= 
 \begin{cases}
-\frac{w_(i,t)K_t}{φ_i,t} \sum_{i=1}^I(w_i,t) \quad t\in B\\
+\frac{w_(i,t)K_t}{φ_i,t}\sum_{i = 1} ^I(w_i,t) \quad t\in B\\
 h_i,t-1 \quad otherwise
 \end{cases}
 $$
