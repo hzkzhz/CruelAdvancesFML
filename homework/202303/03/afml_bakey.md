@@ -72,17 +72,18 @@
 ### ETF Trick
 交易期货价差(future spread)的问题是：价差特征可以被一系列动态变化的权重向量来描述.
 因为权重动态变化，价差有可能在价格没有变化的情况下收敛。这个可能会导致model误认为是市场自动收敛的。第二，价差(spreads)有负数，以为很多model支持处理正数。一个解决办法就是引入一个时间序列能正确反应spread的价值。
- 考虑如下历史bars：
-		oi,t is the raw open price of instrument i = 1,…, I at bar t = 1,…, T.
-		pi,t is the raw close price of instrument i = 1,…, I at bar t = 1,…, T.
-	    di,t is the carry, dividend, or coupon paid by instrument i at bar t. This variable can also be used to charge margin costs, or costs of funding.
-	    
-	    $$
-	    h_i,t = 
-	    \begin{cases}
-	    \frac{w_i,tK_t}{o_i,t}\quad if t belongs to B
-	    h_i,t-1 \quad otherwise
-	    \end{cases}
-	    $$
+考虑如下历史bars：
+
+oi,t is the raw open price of instrument i = 1,…, I at bar t = 1,…, T.
+pi,t is the raw close price of instrument i = 1,…, I at bar t = 1,…, T.
+di,t is the carry, dividend, or coupon paid by instrument i at bar t. This variable can also be used to charge margin costs, or costs of funding.
+
+$$
+h_i,t= 
+\begin{cases}
+\frac{w_i,tK_t}{o_i,t}\quad if t belongs to B
+h_i,t-1 \quad otherwise
+\end{cases}
+$$
 
 
