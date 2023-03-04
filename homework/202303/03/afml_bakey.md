@@ -81,7 +81,7 @@ di,t is the carry, dividend, or coupon paid by instrument i at bar t. This varia
 $$
 h_i,t= 
 \begin{cases}
-\frac{w_i,tK_t}{o_i,t}\quad if t belongs to B
+\frac{w_i,tK_t}{φ_i,t} \sum_{i=1}^I(w_i,t) \quad t\inB
 h_i,t-1 \quad otherwise
 \end{cases}
 $$
