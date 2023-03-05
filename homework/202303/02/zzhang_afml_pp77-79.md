@@ -11,7 +11,7 @@
 
 - 给上面那个binomial series前的系数一个符号
     - $\tilde{X}_t=\sum_{k=0}^\infty w_kX_{t-k}$
-    - $w=\{1,-d,\frac{d(d-1)}{2!},-\frac{d(d-1)(d-2)}{3!},\cdots,(-1)^k\prod_{i=0}^{k-1}\frac{d-i}{k!},\cdots\}$
+    - $w=\{1,-d,\frac{d(d-1)}{2!},-\frac{d(d-1)(d-2)}{3!},\cdots,(-1)^k\frac{\prod_{i=0}^{k-1}d-i}{k!},\cdots\}$
     - $X=\{X_t,X_{t-1},X_{t-2},X_{t-3},\cdots,X_{t-k},\cdots\}$
 - 可以画一个横坐标为 $k$ 纵坐标为 $w_k$ 的图，可以发现 $d$ 越大，$w$ 恒为 0得越早 （k 越小）
     - $\prod_{i=0}^{k=1}\frac{d-i}{k!}=0, \forall k> d$  就叫做 memory is cancelled 
